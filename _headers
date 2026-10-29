@@ -1,0 +1,13 @@
+# Cloudflare Pages headers (inert on GitHub Pages; live after the Pages cutover).
+# See ~/workspace/cloudflare-migration/RUNBOOK.md.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+/index.html
+  Cache-Control: no-cache
+/sw.js
+  Cache-Control: no-cache
+/assets/js/build-info.js
+  Cache-Control: no-cache
